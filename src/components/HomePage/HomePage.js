@@ -37,6 +37,21 @@ function HomePage() {
       <div className="home-header3">
         <span>경기 국제 e스포츠 대회 온라인 예선, 지금 신청해보세요!</span>
       </div>
+      <div className="home-main">
+        <div>
+          <img
+            src="https://opgg-static.akamaized.net/logo/20211017130952.a291bfe6af7e40b896548c57112f7564.png
+"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="home-search">
+        <div>
+          <input type="text" placeholder="소환사명, 소환사명, ..." />
+          <button>.GG</button>
+        </div>
+      </div>
     </div>
   );
 }
