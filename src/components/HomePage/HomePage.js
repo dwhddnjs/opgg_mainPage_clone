@@ -4,7 +4,7 @@ import "./HomePage.scss";
 function HomePage() {
   return (
     <div className="home-body">
-      <div className="home-header">
+      <div className="home-header1">
         <img
           src="	https://opgg-static.akamaized.net/images/gnb/svg/00-opgglogo.svg"
           alt=""
@@ -19,6 +19,20 @@ function HomePage() {
         <div className="home-container">
           <button>로그인</button>
         </div>
+      </div>
+      <div className="home-header2">
+        <ul>
+          <li>#집에있자</li>
+          <li>챔피언 분석</li>
+          <li>칼바람</li>
+          <li>우르프</li>
+          <li>통계</li>
+          <li>랭킹</li>
+          <li>프로관전</li>
+          <li>멀티서치</li>
+          <li>OP셜</li>
+          <li>커뮤니티</li>
+        </ul>
       </div>
     </div>
   );
