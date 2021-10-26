@@ -34,6 +34,9 @@ function HomePage() {
           <li>커뮤니티</li>
         </ul>
       </div>
+      <div className="home-header3">
+        <span>경기 국제 e스포츠 대회 온라인 예선, 지금 신청해보세요!</span>
+      </div>
     </div>
   );
 }
