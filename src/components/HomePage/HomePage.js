@@ -52,6 +52,16 @@ function HomePage() {
           <button>.GG</button>
         </div>
       </div>
+      <div className="home-ad">
+        <div>
+          <span>대충광고</span>
+        </div>
+      </div>
+      <div className="home-talk">
+        <div>
+          <span>OP.GG Talk 인기글</span>
+        </div>
+      </div>
     </div>
   );
 }

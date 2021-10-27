@@ -144,4 +144,33 @@
       }
     }
   }
+  .home-ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      width: 970px;
+      height: 250px;
+      span {
+        font-size: 150px;
+        color: #294173;
+        font-weight: 600;
+      }
+    }
+  }
+  .home-talk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      width: 1080px;
+      height: 50px;
+      background-color: #fff;
+    }
+  }
 }
