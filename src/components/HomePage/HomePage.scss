@@ -4,6 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
   .home-header1 {
     display: flex;
     width: 100%;
@@ -167,10 +168,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    border: solid;
     div {
+      display: flex;
+      align-items: center;
       width: 1080px;
       height: 50px;
       background-color: #fff;
+      border-bottom: 1px solid #f0f0f0;
+      span {
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+    .home-com {
+      width: 540px;
+      height: 360px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      flex-direction: column;
+      flex-wrap: wrap;
+      div {
+        display: flex;
+        width: 540px;
+        height: 70px;
+        img {
+          width: 90px;
+          height: 50px;
+        }
+        .home-detail {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          font-size: 14px;
+          div {
+            font-size: 12px;
+            display: flex;
+            flex-direction: row;
+          }
+        }
+      }
     }
   }
 }
