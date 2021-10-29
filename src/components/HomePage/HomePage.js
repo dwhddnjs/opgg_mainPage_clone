@@ -131,23 +131,59 @@ function HomePage() {
         </div>
       </div>
       <div className="home-talk">
-        <div>
+        <div className="home-item">
           <span>OP.GG Talk 인기글</span>
         </div>
         <div className="home-com">
           {items.map((el) => (
-            <div>
-              <span>{el.id}</span>
-              <img src={el.img} alt="" />
+            <div className="home-items">
+              <span className="home-id">{el.id}</span>
+              <img src="" alt="" />
               <div className="home-detail">
-                <span>{el.title}</span>
-                <div>
+                <span className="home-tit">{el.title}</span>
+                <div className="home-times">
                   <span>{el.time}</span>
                   <span>{el.name}</span>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+      </div>
+      <div className="home-footer">
+        <ul>
+          <li>About OPGG</li>
+          <li>로고 히스토리</li>
+          <li>개인정보처리방침</li>
+          <li>도움말</li>
+          <li>제휴</li>
+          <li>광고</li>
+          <li>문의/피드백</li>
+          <li>채용</li>
+        </ul>
+        <div className="home-footer2">
+          <p>
+            © 2012-2021 OP.GG. OP.GG isn’t endorsed by Riot Games and doesn’t
+            reflect the views or opinions of Riot Games or anyone officially
+            involved in producing or managing League of Legends. League of
+            <br />
+            Legends and Riot Games are trademarks or registered trademarks of
+            Riot Games, Inc. League of Legends © Riot Games, Inc.
+          </p>
+          <div className="home-sns">
+            <img
+              src="https://opgg-static.akamaized.net/images/site/sns/twitter_icon_white.png"
+              alt=""
+            />
+            <img
+              src="https://opgg-static.akamaized.net/images/site/sns/instagram_icon_black.png"
+              alt=""
+            />
+            <img
+              src="https://opgg-static.akamaized.net/images/site/sns/facebook_icon_black.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
