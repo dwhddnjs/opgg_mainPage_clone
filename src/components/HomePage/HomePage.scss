@@ -217,6 +217,8 @@
         img {
           width: 90px;
           height: 50px;
+          overflow: hidden;
+          border: 1px solid #f0f0f0;
         }
         .home-detail {
           display: flex;

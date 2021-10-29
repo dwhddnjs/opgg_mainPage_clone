@@ -8,70 +8,70 @@ function HomePage() {
       title: "퇴근해서 기분좋으신 기사님ㅋㅋㅋ",
       time: "11시간 전",
       name: "이종원",
-      img: "https://scontent-gmp1-1.xx.fbcdn.net/v/t39.30808-6…x&oh=6298a5c08aaa4e1336c16ef88055c5e8&oe=617D0E62",
+      img: "",
     },
     {
       id: 2,
       title: "아내한테 장난치는 몰카",
       time: "14시간 전",
       name: "크리스",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 3,
       title: "리액트 공부하다 정신나간 사람",
       time: "13시간 전",
       name: "종원",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 4,
       title: "회사 직원에게 뭔가 배워온 아빠",
       time: "12시간 전",
       name: "그그그",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 5,
       title: "k-쌍욕",
       time: "13시간 전",
       name: "종머니",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 6,
       title: "옵지 회원 대상 주 포지션 조사",
       time: "13시간 전",
       name: "종옵지",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 7,
       title: "망나니와 백정",
       time: "15시간 전",
       name: "황족미드",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 8,
       title: "숟가락과 도구의 심리학",
       time: "9시간 전",
       name: "바텀차이",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 9,
       title: "전쳇 하는법",
       time: "11시간 전",
       name: "재그",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
     {
       id: 10,
       title: "전설의 영업 방해",
       time: "11시간 전",
       name: "dwhddnjs",
-      img: "https://opgg-com-image.akamaized.net/attach/images/20211027030437.1704584_thumb.jpg?image=w_200",
+      img: "",
     },
   ]);
 
@@ -138,7 +138,7 @@ function HomePage() {
           {items.map((el) => (
             <div className="home-items">
               <span className="home-id">{el.id}</span>
-              <img src="" alt="" />
+              <img src="" alt="대충 짤" />
               <div className="home-detail">
                 <span className="home-tit">{el.title}</span>
                 <div className="home-times">
