@@ -5,7 +5,7 @@ function HomePage() {
   const [items, setItems] = useState([
     {
       id: 1,
-      title: "퇴근해서 기분좋으신 기사님ㅋㅋㅋ",
+      title: "퇴근해서 기분좋으신 기사님ㅋㅋ",
       time: "11시간 전",
       name: "이종원",
       img: "",
